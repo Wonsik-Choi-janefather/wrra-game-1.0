@@ -1,0 +1,17 @@
+WRRA Game 1.0 uses a scope-based dual license.
+
+1. Source code
+
+All source code in the src/ and tools/ directories is licensed under the MIT
+License. See LICENSE-CODE.
+
+2. Research content
+
+All reports, documentation, figures, machine-readable data, and SGF records in
+this release are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). See LICENSE-CONTENT.
+
+Copyright (c) 2026 Wonsik Choi
+
+When redistributing a mixed package, retain this notice and both referenced
+license files so that the applicable terms remain clear.

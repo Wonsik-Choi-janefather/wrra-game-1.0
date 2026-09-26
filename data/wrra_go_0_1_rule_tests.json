@@ -1,0 +1,12 @@
+{
+  "same_visible_board_witness": true,
+  "simple_ko_blocks_repetition": true,
+  "removing_residue_admits_repetition": true,
+  "same_board_different_residue_changes_legality": true,
+  "two_passes_terminate": true,
+  "capture_removes_surrounded_group": true,
+  "suicide_is_forbidden": true,
+  "area_scoring_is_deterministic": true,
+  "renderer_does_not_claim_open_board": true,
+  "coordinate_round_trip": true
+}

@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "profile": "WRRA-Game 0.2",
+    "parent_profile": "WRRA-Game 0.1 preserved",
+    "core": "WRRA Core 1.0 frozen",
+    "author": "Wonsik Choi",
+    "email": "janefather@gmail.com",
+    "date": "2026-09-17"
+  },
+  "core_contract": [
+    "SOURCE",
+    "RELATION/LAW",
+    "STATE/RESIDUE",
+    "BOUNDARY",
+    "COMMON CARRIER",
+    "UPDATE",
+    "RENDERER",
+    "PHENOTYPE",
+    "OBSERVABLE/RECORD/LEDGER"
+  ],
+  "connect_k": {
+    "role": "fully enumerable Omok laboratory; not the standard 15x15 game",
+    "board": "4x4",
+    "win_length": 3,
+    "rules": "alternating placement; at least k contiguous stones wins; stop at first win",
+    "win_masks": 24,
+    "reachable_full_states": 6036001,
+    "directed_legal_edges": 23453344,
+    "terminal_win_states": 2572442,
+    "terminal_draw_states": 18,
+    "phenotype_census": {
+      "forced_loss_certificate": 232299,
+      "immediate_win": 3143087,
+      "mandatory_block": 65828,
+      "open_search": 22327,
+      "terminal_draw": 18,
+      "terminal_win": 2572442
+    },
+    "exact_value_counts_current_player_perspective": {
+      "loss_-1": 2835273,
+      "draw_0": 1322,
+      "win_1": 3199406
+    },
+    "root_exact_value": 1,
+    "root_renderer_value": 1,
+    "all_state_value_mismatches": 0,
+    "exact_solver_cache": {
+      "states_evaluated": 6036001,
+      "hits": 10629417,
+      "misses": 6036001
+    },
+    "renderer_solver_cache": {
+      "states_evaluated": 6036001,
+      "hits": 3236266,
+      "misses": 6036001
+    },
+    "root_alpha_beta": {
+      "baseline": {
+        "value": 1,
+        "nodes": 245560,
+        "leaves": 116927,
+        "cutoffs": 121107,
+        "immediate_win_gates": 0,
+        "mandatory_block_gates": 0,
+        "forced_loss_certificates": 0,
+        "max_depth": 16
+      },
+      "renderer_order": {
+        "value": 1,
+        "nodes": 15686,
+        "leaves": 7002,
+        "cutoffs": 6545,
+        "immediate_win_gates": 0,
+        "mandatory_block_gates": 0,
+        "forced_loss_certificates": 0,
+        "max_depth": 16
+      },
+      "renderer_gate": {
+        "value": 1,
+        "nodes": 32,
+        "leaves": 15,
+        "cutoffs": 16,
+        "immediate_win_gates": 0,
+        "mandatory_block_gates": 0,
+        "forced_loss_certificates": 15,
+        "max_depth": 3
+      }
+    },
+    "node_reduction_vs_baseline": {
+      "renderer_order_fraction": 0.9361215181625672,
+      "renderer_gate_fraction": 0.9998696856165499,
+      "renderer_gate_factor": 7673.75
+    },
+    "minimal_sufficient_state": "board occupancy plus side-to-move",
+    "elapsed_seconds": 151.6359627139991
+  },
+  "go": {
+    "board": "3x3",
+    "rules": "orthogonal liberties; capture; suicide forbidden; simple ko; pass; two passes terminate",
+    "reachable_full_states": 132161,
+    "directed_legal_edges": 420710,
+    "placement_edges": 312878,
+    "pass_edges": 107832,
+    "terminal_two_pass_states": 24329,
+    "unique_visible_state_classes": 72987,
+    "classes_with_multiple_reachable_residues": 20538,
+    "classes_with_residue_dependent_legal_actions": 752,
+    "full_states_in_action_differing_classes": 3672,
+    "ko_sensitive_full_states": 768,
+    "max_reachable_residues_per_visible_state": 32,
+    "max_distinct_legal_action_sets_per_visible_state": 3,
+    "blocked_moves_per_ko_sensitive_state": {
+      "1": 768
+    },
+    "witness": {
+      "board_rows": [
+        "B.B",
+        "WB.",
+        "..."
+      ],
+      "to_move": "W",
+      "pass_count": 0,
+      "differing_action": [
+        0,
+        1
+      ],
+      "legal_history_depth": 5,
+      "blocked_history_depth": 5,
+      "legal_history": [
+        {
+          "ply": 1,
+          "player": "B",
+          "action": [
+            0,
+            0
+          ]
+        },
+        {
+          "ply": 2,
+          "player": "W",
+          "action": [
+            1,
+            0
+          ]
+        },
+        {
+          "ply": 3,
+          "player": "B",
+          "action": [
+            0,
+            2
+          ]
+        },
+        {
+          "ply": 4,
+          "player": "W",
+          "action": "pass"
+        },
+        {
+          "ply": 5,
+          "player": "B",
+          "action": [
+            1,
+            1
+          ]
+        }
+      ],
+      "blocked_history": [
+        {
+          "ply": 1,
+          "player": "B",
+          "action": [
+            0,
+            2
+          ]
+        },
+        {
+          "ply": 2,
+          "player": "W",
+          "action": [
+            0,
+            1
+          ]
+        },
+        {
+          "ply": 3,
+          "player": "B",
+          "action": [
+            1,
+            1
+          ]
+        },
+        {
+          "ply": 4,
+          "player": "W",
+          "action": [
+            1,
+            0
+          ]
+        },
+        {
+          "ply": 5,
+          "player": "B",
+          "action": [
+            0,
+            0
+          ]
+        }
+      ],
+      "legal_previous_board_rows": [
+        "B.B",
+        "W..",
+        "..."
+      ],
+      "blocked_previous_board_rows": [
+        ".WB",
+        "WB.",
+        "..."
+      ],
+      "legal_action_set": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "blocked_action_set": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "blocked_move_restores_previous_board": true
+    },
+    "minimal_sufficient_state": "board, side-to-move, previous-board residue, and pass count",
+    "elapsed_seconds": 5.851767939999263
+  },
+  "claim_status": {
+    "core_modified": false,
+    "connect_k_full_reachable_graph_enumerated": true,
+    "renderer_optimal_value_preserved_on_every_reachable_connect_k_state": true,
+    "go_full_reachable_graph_enumerated": true,
+    "board_only_go_state_sufficiency_refuted_for_stated_rules": true,
+    "standard_15x15_omok_solved": false,
+    "standard_19x19_go_solved": false,
+    "specialized_engine_superiority_claimed": false
+  },
+  "elapsed_seconds_total": 157.48913222900046
+}

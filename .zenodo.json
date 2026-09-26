@@ -1,0 +1,37 @@
+{
+  "title": "WRRA Game 1.0: Minimal Sufficient State, Exhaustive Validation, and a Playable Go Engine",
+  "description": "This release integrates the WRRA Game research program from constructive game analysis to exhaustive finite-state validation and a playable Go engine. Game 0.1 identifies an Omok forced-win phenotype and a simple-ko residue counterexample. Game 0.2 exhaustively enumerates 6,036,001 reachable Connect-K states and 132,161 reachable 3×3 Go states, finding zero minimax-value mismatches for a certified Renderer reduction and 752 visible-state classes whose legal actions depend on previous-board residue. WRRA Go 0.1 reuses the verified transition system in a playable 9×9 engine, combining a transparent eleven-channel Renderer with Monte Carlo Tree Search. The archive includes source code, machine-readable ledgers, deterministic rule tests, paired-control matches, and an SGF self-play record. The work evaluates rule-permitted continuations; it does not describe residue or search as prediction of a pre-existing future. Reports, documentation, figures, data, and the SGF record are licensed under CC BY 4.0; source code is licensed under the MIT License.",
+  "creators": [
+    {
+      "name": "Choi, Wonsik"
+    }
+  ],
+  "keywords": [
+    "WRRA",
+    "Go",
+    "Baduk",
+    "Omok",
+    "Connect K",
+    "Monte Carlo Tree Search",
+    "MCTS",
+    "minimal sufficient state",
+    "state sufficiency",
+    "residue",
+    "Renderer",
+    "exhaustive search",
+    "explainable game AI",
+    "complex systems"
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "publication_date": "2026-09-17",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22650956",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

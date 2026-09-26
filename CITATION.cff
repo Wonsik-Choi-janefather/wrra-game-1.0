@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or its validation data, please cite this release."
+title: "WRRA Game 1.0: Minimal Sufficient State, Exhaustive Validation, and a Playable Go Engine"
+type: software
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    email: janefather@gmail.com
+version: "1.0"
+date-released: 2026-09-17
+abstract: >-
+  An integrated release of WRRA Game 0.1, WRRA Game 0.2, and WRRA Go 0.1,
+  covering constructive Omok and Go examples, exhaustive finite-state
+  validation, and a playable Go engine with a transparent eleven-channel
+  Renderer, Monte Carlo Tree Search, and machine-readable decision ledgers.
+keywords:
+  - WRRA
+  - Go
+  - Baduk
+  - Omok
+  - Connect K
+  - Monte Carlo Tree Search
+  - minimal sufficient state
+  - residue
+  - renderer
+  - exhaustive search
+references:
+  - type: generic
+    title: "WRRA Core 1.0: Frozen Domain-Agnostic Execution Architecture"
+    doi: 10.5281/zenodo.22650956
+

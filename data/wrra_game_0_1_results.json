@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "profile": "WRRA-Game 0.1",
+    "core": "WRRA Core 1.0 frozen",
+    "author": "Wonsik Choi",
+    "email": "janefather@gmail.com",
+    "date": "2026-09-16"
+  },
+  "core_contract": [
+    "SOURCE",
+    "RELATION/LAW",
+    "STATE/RESIDUE",
+    "BOUNDARY",
+    "COMMON CARRIER",
+    "UPDATE",
+    "RENDERER",
+    "PHENOTYPE",
+    "OBSERVABLE/RECORD/LEDGER"
+  ],
+  "omok": {
+    "board_size": 9,
+    "win_length": 5,
+    "ruleset": "freestyle; five or more wins; no forbidden-move rule",
+    "tested_move": [
+      4,
+      4
+    ],
+    "immediate_win": false,
+    "created_next_turn_win_outlets": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        4
+      ]
+    ],
+    "outlet_count": 4,
+    "defensive_replies_checked": 70,
+    "defensive_replies_escaping_all_immediate_wins": 0,
+    "forced_win_in_two_plies_from_tested_move": true,
+    "all_fork_moves": {
+      "(4, 4)": [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          4
+        ]
+      ]
+    },
+    "legal_move_count": 71,
+    "fork_candidate_count": 1,
+    "candidate_reduction_fraction": 0.9859154929577465,
+    "metrics_before": {
+      "legal_actions": 71,
+      "boundary_points": 3,
+      "ownership_ambiguity": 30,
+      "residue_units": 0,
+      "phenotype_events": 1
+    },
+    "minimal_residue": "board plus side-to-move; no additional history for freestyle rules"
+  },
+  "go": {
+    "board_size": 5,
+    "ruleset": "orthogonal liberties; capture; suicide forbidden; simple ko; pass allowed",
+    "tested_capture_move": [
+      2,
+      3
+    ],
+    "captured_stones": 1,
+    "tested_recapture_move": [
+      2,
+      2
+    ],
+    "recapture_with_residue": "illegal",
+    "recapture_without_residue": "legal",
+    "recapture_restores_prior_board": true,
+    "legal_actions_with_residue": 18,
+    "legal_actions_without_residue": 19,
+    "metrics_before": {
+      "legal_actions": 19,
+      "boundary_points": 6,
+      "ownership_ambiguity": 17,
+      "residue_units": 0,
+      "phenotype_events": 2
+    },
+    "metrics_after": {
+      "legal_actions": 18,
+      "boundary_points": 6,
+      "ownership_ambiguity": 17,
+      "residue_units": 1,
+      "phenotype_events": 1
+    },
+    "minimal_residue": "one previous-board hash under simple ko; visited-state set under positional superko",
+    "territory_test": {
+      "black_exact_region_points": 1,
+      "white_exact_region_points": 2,
+      "contested_points": 38,
+      "black_center_owned": true,
+      "white_center_owned": true
+    }
+  },
+  "state_space": {
+    "omok_15x15": {
+      "raw_ternary_configurations": "225051707283248404043264398919956893908530667320312401148007480414880605588527456387252533530387658761101443",
+      "log10_raw_configurations": 107.35228231192404,
+      "ordered_first_10_move_sequences_ignoring_early_terminal_states": "271467236499980032512000",
+      "log10_first_10_sequences": 23.433717421895825
+    },
+    "go_19x19": {
+      "raw_ternary_configurations_upper_bound": "17408965065903192790718823807056436794660272495026354119482811870680105167618464984116279288988714938612096988816320780613754987181355093129514803369660572893075468180597603",
+      "log10_raw_configurations_upper_bound": 172.24077295379814
+    }
+  },
+  "claim_status": {
+    "core_mapping": "IMPLEMENTED",
+    "constructive_phenotype_tests": "PASSED",
+    "ko_residue_test": "PASSED",
+    "general_playing_strength": "NOT_TESTED",
+    "superiority_to_specialized_engines": "NOT_CLAIMED"
+  },
+  "figures": {
+    "omok_fork": "wrra_game_output/figure_omok_fork.png",
+    "go_ko": "wrra_game_output/figure_go_ko.png",
+    "go_territory": "wrra_game_output/figure_go_territory.png"
+  }
+}

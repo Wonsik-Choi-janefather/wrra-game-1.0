@@ -1,0 +1,504 @@
+{
+  "metadata": {
+    "profile": "WRRA-Go 0.1",
+    "core": "WRRA Core 1.0 frozen",
+    "author": "Wonsik Choi",
+    "email": "janefather@gmail.com",
+    "date": "2026-09-17",
+    "seed": 20260917
+  },
+  "rules": {
+    "board": "5x5",
+    "komi": 2.5,
+    "capture": true,
+    "suicide_forbidden": true,
+    "ko": "simple ko with one previous-board residue",
+    "pass": true,
+    "end": "two consecutive passes; operational cap for automated runs",
+    "scoring": "area score"
+  },
+  "search": {
+    "simulations_per_move": 48,
+    "paired_games_per_matchup": 8,
+    "wrra_prior": "fixed transparent renderer channels",
+    "control_prior": "uniform"
+  },
+  "summary": {
+    "uniform_mcts": {
+      "games": 16,
+      "wrra_wins": 15,
+      "wrra_losses": 1,
+      "wrra_win_rate": 0.9375,
+      "wilson_95_interval": [
+        0.7167126242970107,
+        0.9888806552353576
+      ],
+      "mean_move_count": 34.8125,
+      "two_pass_endings": 16
+    },
+    "random": {
+      "games": 16,
+      "wrra_wins": 16,
+      "wrra_losses": 0,
+      "wrra_win_rate": 1.0,
+      "wilson_95_interval": [
+        0.8063923194655637,
+        1.0000000000000002
+      ],
+      "mean_move_count": 37.875,
+      "two_pass_endings": 16
+    }
+  },
+  "games": [
+    {
+      "matchup": "uniform_mcts",
+      "pair": 1,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 35,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 4.000875022002219,
+        "W": 1.0430838750016846
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 1,
+      "wrra_colour": "W",
+      "winner": "B",
+      "wrra_win": false,
+      "move_count": 29,
+      "black_margin": 1.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.981396183002289,
+        "W": 4.017329398000584
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 2,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 35,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.9222591419984383,
+        "W": 0.9295232639997266
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 2,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 32,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.9502562549987488,
+        "W": 3.374534295000558
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 3,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 27,
+      "black_margin": 17.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.5581110139974044,
+        "W": 0.8278236330006621
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 3,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 36,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 1.0315402989945142,
+        "W": 3.6934836729997187
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 4,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 43,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 4.206382569000198,
+        "W": 1.2013522860070225
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 4,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 34,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 1.0573789439986285,
+        "W": 3.889528011999573
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 5,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 37,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.8988376060005976,
+        "W": 0.8769981959976576
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 5,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 36,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.9864485670059366,
+        "W": 3.6454466010018223
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 6,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 33,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.7189999649926904,
+        "W": 0.8658800080047513
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 6,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 44,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 1.2190014129846531,
+        "W": 4.331395414996223
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 7,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 37,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.9858378079916292,
+        "W": 1.0283136739999463
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 7,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 38,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 1.0482768500005477,
+        "W": 3.7322604350083566
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 8,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 29,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.694870416999038,
+        "W": 0.878821534999588
+      }
+    },
+    {
+      "matchup": "uniform_mcts",
+      "pair": 8,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 32,
+      "black_margin": -23.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.8616241650051961,
+        "W": 3.451974983996479
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 1,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 39,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.798259502997098,
+        "W": 0.0
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 1,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 40,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.0,
+        "W": 4.019635197997559
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 2,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 37,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.8105805139966833,
+        "W": 0.0
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 2,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 44,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.0,
+        "W": 3.9896169230123633
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 3,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 37,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.620139869999548,
+        "W": 0.0
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 3,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 40,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.0,
+        "W": 3.941186716005177
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 4,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 35,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.903417888996046,
+        "W": 0.0
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 4,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 40,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.0,
+        "W": 4.122862788008206
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 5,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 35,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.7246021430000837,
+        "W": 0.0
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 5,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 34,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.0,
+        "W": 3.6058623980061384
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 6,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 39,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.873945111005014,
+        "W": 0.0
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 6,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 38,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.0,
+        "W": 3.7571832250032458
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 7,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 37,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.6913600549996772,
+        "W": 0.0
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 7,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 40,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.0,
+        "W": 3.7411557419909514
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 8,
+      "wrra_colour": "B",
+      "winner": "B",
+      "wrra_win": true,
+      "move_count": 37,
+      "black_margin": 22.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 3.6867511460004607,
+        "W": 0.0
+      }
+    },
+    {
+      "matchup": "random",
+      "pair": 8,
+      "wrra_colour": "W",
+      "winner": "W",
+      "wrra_win": true,
+      "move_count": 34,
+      "black_margin": -27.5,
+      "ended_by": "two_passes",
+      "decision_seconds": {
+        "B": 0.0,
+        "W": 3.5445629109926813
+      }
+    }
+  ],
+  "elapsed_seconds": 137.77896215799956,
+  "interpretation": "This benchmark measures action selection under the stated finite rules. It is not an empirical forecast and not a claim of professional Go strength."
+}
