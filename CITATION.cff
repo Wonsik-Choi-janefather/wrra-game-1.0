@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software or its validation data, please cite this release."
 title: "WRRA Game 1.0: Minimal Sufficient State, Exhaustive Validation, and a Playable Go Engine"
 type: software
+doi: 10.5281/zenodo.22985378
 authors:
   - family-names: Choi
     given-names: Wonsik
