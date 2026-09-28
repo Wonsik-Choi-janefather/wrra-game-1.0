@@ -101,7 +101,7 @@ WRRA Core 1.0 remains frozen throughout this release.
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The Zenodo DOI will be added to this README after the public deposit is issued.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). **This game's own Zenodo record:** [10.5281/zenodo.22985378](https://doi.org/10.5281/zenodo.22985378). The WRRA Core DOI above cites a separate foundational work.
 
 ## Review questions
 
