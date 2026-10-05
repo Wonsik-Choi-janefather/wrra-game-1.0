@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "match_id": "e48b5ac6-ea0a-429d-9993-a72c066193b9",
+  "strategy_commit": "0646f21f8bbcacbb4a49052534d96148f13e3c6c",
+  "strategy_doi": "10.5281/zenodo.23148756",
+  "checks": {
+    "legal_actions": 14,
+    "commitments": 14,
+    "generations": 56,
+    "policy_reproductions": 7,
+    "continuity": 7
+  },
+  "scores": [
+    {
+      "round": 1,
+      "blue": 19,
+      "red": 16,
+      "neutral": 0
+    },
+    {
+      "round": 2,
+      "blue": 32,
+      "red": 11,
+      "neutral": 0
+    },
+    {
+      "round": 3,
+      "blue": 62,
+      "red": 3,
+      "neutral": 0
+    },
+    {
+      "round": 4,
+      "blue": 67,
+      "red": 5,
+      "neutral": 0
+    },
+    {
+      "round": 5,
+      "blue": 97,
+      "red": 16,
+      "neutral": 0
+    },
+    {
+      "round": 6,
+      "blue": 137,
+      "red": 10,
+      "neutral": 0
+    },
+    {
+      "round": 7,
+      "blue": 139,
+      "red": 4,
+      "neutral": 0
+    }
+  ],
+  "winner_names": [
+    "wrraresearchledger"
+  ],
+  "completion_reason": "played",
+  "final_margin": 135,
+  "state_hash": "87fd2bee53f0122eecfb0fe3e0117929fd877e7759a8361f6e8d1379b5a58611"
+}
