@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this release when using the strategy or code."
+title: "WRRA Jimothy 0.1: A Budgeted Robust-Trajectory Strategy for Competitive Cellular Automata"
+type: software
+version: 0.1.0
+date-released: 2026-10-05
+doi: 10.5281/zenodo.23148630
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: https://orcid.org/0009-0001-4263-9772
+license: CC-BY-4.0
+repository-code: https://github.com/Wonsik-Choi-janefather/wrra-game-1.0
