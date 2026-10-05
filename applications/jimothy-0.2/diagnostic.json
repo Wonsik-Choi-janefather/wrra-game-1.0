@@ -1,0 +1,586 @@
+{
+  "note": "Retrospective diagnostic on seven fixed v0.1 positions. Recorded red actions are used only after selecting each blue action. These are not a coherent v0.2 game or held-out validation; improvement can overfit this first match.",
+  "rows": [
+    {
+      "round": 1,
+      "v01_blue": 45,
+      "v01_red": 46,
+      "v02_blue": 31,
+      "v02_red": 46,
+      "decision": {
+        "version": "0.2.0",
+        "seed": 2026100521,
+        "round_number": 1,
+        "budget": 20,
+        "generations": 8,
+        "horizon": 16,
+        "blue_rollouts": 6016,
+        "opponent_scenarios": 11,
+        "opponent_search_candidates": 896,
+        "utility": 14.677272727272728,
+        "placements": [
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            19,
+            10
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            20,
+            11
+          ],
+          [
+            20,
+            12
+          ],
+          [
+            6,
+            18
+          ],
+          [
+            6,
+            19
+          ],
+          [
+            7,
+            19
+          ],
+          [
+            6,
+            20
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            15,
+            21
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            15,
+            22
+          ],
+          [
+            15,
+            23
+          ]
+        ],
+        "opponent_reveal_used": false,
+        "board_sha256": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4",
+        "scenario_terminal_margins": [
+          6,
+          7,
+          10,
+          14,
+          0,
+          42,
+          61,
+          38,
+          39,
+          32,
+          16
+        ],
+        "scenario_future_margins": [
+          -6,
+          16,
+          20,
+          -1,
+          0,
+          34,
+          58,
+          46,
+          45,
+          17,
+          15
+        ],
+        "mean_terminal_margin": 24.09090909090909,
+        "worst_terminal_margin": 0
+      }
+    },
+    {
+      "round": 2,
+      "v01_blue": 52,
+      "v01_red": 53,
+      "v02_blue": 56,
+      "v02_red": 37,
+      "decision": {
+        "version": "0.2.0",
+        "seed": 2026100522,
+        "round_number": 2,
+        "budget": 6,
+        "generations": 8,
+        "horizon": 16,
+        "blue_rollouts": 6016,
+        "opponent_scenarios": 11,
+        "opponent_search_candidates": 896,
+        "utility": 14.531818181818183,
+        "placements": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            19,
+            13
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            23,
+            22
+          ]
+        ],
+        "opponent_reveal_used": false,
+        "board_sha256": "edd4c065d4f7fbffefae97c59596642fe557737d229c828358964fa5ba00b65b",
+        "scenario_terminal_margins": [
+          23,
+          18,
+          5,
+          15,
+          19,
+          13,
+          24,
+          12,
+          30,
+          27,
+          16
+        ],
+        "scenario_future_margins": [
+          20,
+          10,
+          12,
+          24,
+          40,
+          4,
+          45,
+          12,
+          13,
+          39,
+          35
+        ],
+        "mean_terminal_margin": 18.363636363636363,
+        "worst_terminal_margin": 5
+      }
+    },
+    {
+      "round": 3,
+      "v01_blue": 33,
+      "v01_red": 52,
+      "v02_blue": 35,
+      "v02_red": 40,
+      "decision": {
+        "version": "0.2.0",
+        "seed": 2026100523,
+        "round_number": 3,
+        "budget": 6,
+        "generations": 8,
+        "horizon": 16,
+        "blue_rollouts": 6016,
+        "opponent_scenarios": 11,
+        "opponent_search_candidates": 896,
+        "utility": 7.168181818181819,
+        "placements": [
+          [
+            19,
+            7
+          ],
+          [
+            12,
+            9
+          ],
+          [
+            22,
+            9
+          ],
+          [
+            2,
+            20
+          ],
+          [
+            8,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ],
+        "opponent_reveal_used": false,
+        "board_sha256": "ae97427f12655e4de7e703f413714a2f84d0329357cf67577fb7400d29a92c25",
+        "scenario_terminal_margins": [
+          -13,
+          -9,
+          -1,
+          32,
+          47,
+          50,
+          59,
+          12,
+          6,
+          -6,
+          9
+        ],
+        "scenario_future_margins": [
+          0,
+          22,
+          -17,
+          38,
+          37,
+          47,
+          51,
+          21,
+          28,
+          -15,
+          36
+        ],
+        "mean_terminal_margin": 16.90909090909091,
+        "worst_terminal_margin": -13
+      }
+    },
+    {
+      "round": 4,
+      "v01_blue": 43,
+      "v01_red": 55,
+      "v02_blue": 37,
+      "v02_red": 27,
+      "decision": {
+        "version": "0.2.0",
+        "seed": 2026100524,
+        "round_number": 4,
+        "budget": 6,
+        "generations": 8,
+        "horizon": 16,
+        "blue_rollouts": 6016,
+        "opponent_scenarios": 11,
+        "opponent_search_candidates": 896,
+        "utility": 12.000000000000002,
+        "placements": [
+          [
+            19,
+            8
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            22,
+            20
+          ],
+          [
+            23,
+            22
+          ],
+          [
+            6,
+            23
+          ]
+        ],
+        "opponent_reveal_used": false,
+        "board_sha256": "d1438efc5771325017f100eb75a041ccdd44e4745a04bfb60b5e14489bdaa2f2",
+        "scenario_terminal_margins": [
+          23,
+          15,
+          -10,
+          22,
+          51,
+          4,
+          46,
+          5,
+          6,
+          24,
+          32
+        ],
+        "scenario_future_margins": [
+          18,
+          35,
+          -3,
+          24,
+          69,
+          51,
+          87,
+          -6,
+          8,
+          0,
+          57
+        ],
+        "mean_terminal_margin": 19.818181818181817,
+        "worst_terminal_margin": -10
+      }
+    },
+    {
+      "round": 5,
+      "v01_blue": 15,
+      "v01_red": 59,
+      "v02_blue": 37,
+      "v02_red": 51,
+      "decision": {
+        "version": "0.2.0",
+        "seed": 2026100525,
+        "round_number": 5,
+        "budget": 6,
+        "generations": 8,
+        "horizon": 16,
+        "blue_rollouts": 6016,
+        "opponent_scenarios": 11,
+        "opponent_search_candidates": 896,
+        "utility": 17.263636363636365,
+        "placements": [
+          [
+            6,
+            5
+          ],
+          [
+            15,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            1,
+            14
+          ],
+          [
+            16,
+            19
+          ]
+        ],
+        "opponent_reveal_used": false,
+        "board_sha256": "707edace2d93cf11301d30773a6d185e4d24ba8ca68841acad01ca5608c362ee",
+        "scenario_terminal_margins": [
+          12,
+          20,
+          2,
+          22,
+          32,
+          48,
+          30,
+          20,
+          40,
+          29,
+          23
+        ],
+        "scenario_future_margins": [
+          15,
+          34,
+          3,
+          14,
+          33,
+          34,
+          42,
+          31,
+          52,
+          14,
+          8
+        ],
+        "mean_terminal_margin": 25.272727272727273,
+        "worst_terminal_margin": 2
+      }
+    },
+    {
+      "round": 6,
+      "v01_blue": 30,
+      "v01_red": 47,
+      "v02_blue": 26,
+      "v02_red": 57,
+      "decision": {
+        "version": "0.2.0",
+        "seed": 2026100526,
+        "round_number": 6,
+        "budget": 6,
+        "generations": 8,
+        "horizon": 16,
+        "blue_rollouts": 6016,
+        "opponent_scenarios": 11,
+        "opponent_search_candidates": 896,
+        "utility": -9.481818181818182,
+        "placements": [
+          [
+            1,
+            0
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            2,
+            16
+          ],
+          [
+            12,
+            20
+          ]
+        ],
+        "opponent_reveal_used": false,
+        "board_sha256": "601e29db0c36cfc1e01fbc41452201b9f56dcd1b2f9bb6d14a91258f676f0f2f",
+        "scenario_terminal_margins": [
+          -18,
+          -7,
+          -12,
+          -14,
+          15,
+          15,
+          28,
+          -15,
+          -9,
+          12,
+          3
+        ],
+        "scenario_future_margins": [
+          2,
+          9,
+          -55,
+          -11,
+          12,
+          2,
+          31,
+          -11,
+          7,
+          24,
+          23
+        ],
+        "mean_terminal_margin": -0.18181818181818182,
+        "worst_terminal_margin": -18
+      }
+    },
+    {
+      "round": 7,
+      "v01_blue": 42,
+      "v01_red": 58,
+      "v02_blue": 32,
+      "v02_red": 39,
+      "decision": {
+        "version": "0.2.0",
+        "seed": 2026100527,
+        "round_number": 7,
+        "budget": 6,
+        "generations": 8,
+        "horizon": 8,
+        "blue_rollouts": 6016,
+        "opponent_scenarios": 11,
+        "opponent_search_candidates": 896,
+        "utility": -0.16818181818181777,
+        "placements": [
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            19,
+            18
+          ],
+          [
+            17,
+            19
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "opponent_reveal_used": false,
+        "board_sha256": "8a155c823a58e6d83378afef143e3d6c969fd984dcdb092a071d314aa290334a",
+        "scenario_terminal_margins": [
+          -15,
+          -8,
+          11,
+          3,
+          10,
+          19,
+          26,
+          8,
+          10,
+          10,
+          12
+        ],
+        "scenario_future_margins": [
+          -15,
+          -8,
+          11,
+          3,
+          10,
+          19,
+          26,
+          8,
+          10,
+          10,
+          12
+        ],
+        "mean_terminal_margin": 7.818181818181818,
+        "worst_terminal_margin": -15
+      }
+    }
+  ]
+}

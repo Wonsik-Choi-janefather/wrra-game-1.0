@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite Wonsik Choi, this DOI and the source repository."
+title: "WRRA Jimothy 0.2: Adversarial Repair Search and Multi-Horizon Survival"
+type: software
+version: 0.2.0
+date-released: 2026-10-05
+doi: 10.5281/zenodo.23148756
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+    orcid: https://orcid.org/0009-0001-4263-9772
+license: CC-BY-4.0
+repository-code: https://github.com/Wonsik-Choi-janefather/wrra-game-1.0
